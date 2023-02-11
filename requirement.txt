@@ -1,0 +1,12 @@
+#### Requirements ####
+gym_super_mario_bros==7.3.0
+gym==0.24.1
+# Required PyTorch, please go visit the website https://pytorch.org/get-started/locally/ for more details on your machine config.
+torch
+torchvision
+torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+stable-baselines3[extra]
+nes-py
+jupyter
+numpy
+matplotlib
